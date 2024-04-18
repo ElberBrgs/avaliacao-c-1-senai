@@ -23,14 +23,14 @@ int main(){
 		printf("1- Mostrar nome e idade.\n");
 		printf("2- Mostrar nome e e-mail.\n");
 		printf("3- Mostrar nome e telefone.\n");
-		printf("4- Mostrar todas as informações.\n");
+		printf("4- Mostrar todas as informaÃ§Ãµes.\n");
 		printf("0- Sair do programa.\n");
 	
-		printf("Digite a opção:\n");
+		printf("Digite a opÃ§Ã£o:\n");
 		scanf("%d",&opcao);
 		
 		if(opcao>5 || opcao <0){
-			printf("Opção incorreta,tente novamente:\n");
+			printf("OpÃ§Ã£o incorreta,tente novamente:\n");
 		}
 		
 }while(opcao>5 || opcao <0);
