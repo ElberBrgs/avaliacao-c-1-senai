@@ -10,7 +10,7 @@ int main(){
 	
 	do{
 		quantidade ++;
-		printf("Digite um número: ");
+		printf("Digite um nÃºmero: ");
 		scanf("%d",&numero);
 		
 		if(numero<menorNumero){
@@ -21,8 +21,8 @@ int main(){
 		}
 	}while(quantidade<=5);
 	
-	printf("Menor número: %d\n",menorNumero);
-	printf("Maior número: %d\n",maiorNumero);
+	printf("Menor nÃºmero: %d\n",menorNumero);
+	printf("Maior nÃºmero: %d\n",maiorNumero);
 	
 	return 0;
 }
