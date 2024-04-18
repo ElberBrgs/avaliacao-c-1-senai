@@ -13,7 +13,7 @@ int main(){
 		scanf("%s",&aluno[i]);
 		
 		for(j=0;j<4;j++){
-			printf("Digite a %dª nota:\n",j+1);
+			printf("Digite a %dÂª nota:\n",j+1);
 			scanf("%d",&notas[i][j]);
 			soma+=notas[i][j];
 		}
@@ -23,17 +23,17 @@ int main(){
 		printf("Aluno: %s\n",aluno);
 		
 		for(j=0;j<4;j++){
-		printf("%dª Nota: %d\n",j+1,notas[i][j]);
+		printf("%dÂª Nota: %d\n",j+1,notas[i][j]);
 		}
 	}
 	
 	media= soma/4;
-	printf("Média: %.1f\n",media);
+	printf("MÃ©dia: %.1f\n",media);
 	
 	if(media>=7){
 		printf("Aprovado.");
 	}else if(media>=5){
-		printf("Recuperação.");
+		printf("RecuperaÃ§Ã£o.");
 	}else{
 		printf("Reprovado.");
 	}
