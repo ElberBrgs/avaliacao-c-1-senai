@@ -9,7 +9,7 @@ int main(){
 	
 	do{
 		soma+=numero;
-		printf("Digite um número: ");
+		printf("Digite um nÃºmero: ");
 		scanf("%d",&numero);
 		if(numero>=0){
 			i++;
@@ -19,7 +19,7 @@ int main(){
 	
 	media = soma/i;
 	
-	printf("Média: %.1f",media);
+	printf("MÃ©dia: %.1f",media);
 	
 	return 0;
 }
